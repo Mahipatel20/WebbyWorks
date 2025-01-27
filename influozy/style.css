@@ -1,0 +1,241 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Global CSS Start */
+* {
+    font-family: "Poppins", sans-serif;
+}
+h2 {
+    font-size: 30px;
+    font-weight: 400px;
+}
+h3 {
+    font-size: 25px;
+    font-weight: 300px;
+}
+h4 {
+    font-size: 20px;
+    font-weight: 200px;
+}
+h5 {
+    font-size: 15px;
+    font-weight: 200px;
+}
+p {
+    font-size: 12px;
+    font-weight: 200px;
+    margin-top: 10px;
+}
+/* Global CSS End */
+.header {
+    background-image: url(assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+}
+.logo img {
+    width: 50px;
+    height: 40px;
+}
+.logo {
+    display: flex;
+    text-decoration: none;
+    gap: 10px;
+    align-items: center;
+    color: black;
+}
+.navbar-nav {
+    gap: 20px;
+}
+.btn {
+    background-color: blueviolet;
+    padding:  5px 15px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+.btn:hover {
+    background-color: #ccabe9;
+}
+.outer_btn {
+    margin-left: 20px;
+    margin-top: 3px;
+}
+.outer_btn1 {
+    margin-top: 20px;
+}
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+.content-box {
+    display: flex;
+    justify-content: space-between;
+}
+.title {
+    width: 50%;
+    margin-top: 80px;
+}
+.frame {
+    margin-top: -30px;
+}
+.client1 {
+    display: flex;
+}
+.frame img {
+    width: 11rem;
+    height: 11rem;
+}
+.img_1 {
+    border: 3px solid whitesmoke;
+    border-radius: 80px 10px 10px 10px;
+}
+.img_2 {
+    border: 3px solid whitesmoke;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.img_3 {
+    border: 3px solid whitesmoke;
+    border-radius: 10px 10px 10px 80px;
+}
+.img_4 {
+    border: 3px solid whitesmoke;
+    border-radius: 10px 10px 80px 10px;
+}
+.About {
+    padding: 30px 0px;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+.con span {
+    color: blueviolet;
+}
+.con p {
+    font-size: 15px;
+    font-weight: 500;
+}
+.box {
+    display: flex;
+    gap: 4rem;
+}
+.services {
+    padding: 30px 0px;
+}
+.logoipsum {
+    display: flex;
+    gap: 60px;
+}
+.logoipsum img {
+    height: auto;
+    width: 120px;
+} 
+.img img {
+    width: 400px;
+    height: 350px;
+    border-radius: 10px 10px 10px 100px;
+}
+.discription {
+    margin-top: 20px;
+}
+.radio {
+    gap: 3rem;
+    display: flex;  
+}
+.mylist li{
+    list-style: none;
+    position: relative;
+    display: block;
+    padding-left: 25px;
+    line-height: 32px;
+    display: flex;
+}
+.mylist li:before{
+    content: "\f192";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    left: 0px;
+    color: #74C0FC;
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+.mylist1 li {
+    list-style: none;
+    position: relative;
+    display: block;
+    padding-left: 25px;
+    line-height: 32px;
+}
+.mylist1 li:before {
+    content: "\f192";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    left: 0px;
+    color: #74C0FC;
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+.counter-static {
+    display: flex;
+    justify-content: space-between;
+}
+.counter {
+    padding: 30px 0px;
+}
+.counter-list {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.counter-list:hover {
+    color: blueviolet;
+}
+.counter-icon i {
+    font-size: 40px;
+}
+.counter-content p {
+    margin: 0;
+}
+.pages {
+    padding: 30px 0px;
+}
+.card-img-top {
+    height: auto;
+    width: 40px;
+}
+.card {
+    padding: 15px;
+    border: 3px solid whitesmoke;
+    box-shadow: 0px 3px whitesmoke;
+    transition-duration: 0.5s;
+}
+.card:hover {
+    box-shadow:0px 3px blueviolet ;
+}
+.card1 {
+    margin-top: 20px;
+}
+.card2 {
+    margin-top: 20px;
+}
+.card-body {
+    padding: 0px;
+}
+.card-title {
+    margin-top: 10px;
+}
