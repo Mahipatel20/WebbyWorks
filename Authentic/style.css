@@ -1,0 +1,237 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-family: "Poppins", sans-serif;
+}
+/* Global CSS start */
+h1 {
+    font-size: 70px;
+    font-weight: 650;
+}
+h2 {
+    font-size: 50px;
+    font-weight: 400;
+}
+h3 {
+    font-size: 40px;
+    font-weight: 450;
+}
+h4 {
+    font-size: 18px;
+    font-weight: 450;
+}
+h5 {
+    font-size: 15px;
+    font-weight: 350;
+}
+p {
+    font-size: 15px;
+    font-weight: 350;
+}
+.btn {
+    padding: 7px 20px;
+    color:white;
+    background-color: black;
+    border: none;
+    border-radius: 2px;
+}
+/* Global CSS End */
+.btn:hover {
+    background-color: skyblue;
+}
+h1 span {
+    font-size: 50px;
+    font-weight: 400;
+}
+.header {
+    width: 100vw;
+    height: 60px;
+}
+.container {
+    max-width: 1100px;
+}
+.container .logo {
+    width: 80px;
+    margin-left: 0.2rem;
+}
+.nav-link {
+    font-weight: 500;
+    margin-left: 1.2rem;
+}
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(assets/image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+.content-box {
+    width: 50%;
+}
+.start-journey {
+    width: 100%;
+    display: flex;
+    /* min-height: 100vh; */
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    padding: 60px 0px;
+}
+.title-service p {
+    margin-top: 1rem;
+}
+.card-group {
+    gap: 1rem; 
+}
+.card-body {
+    padding: 0px;
+}
+.card {
+    display: flex;
+    text-align: left;
+    border: none;
+    justify-content: left;
+}
+.card-img-top {
+    max-width: 40px;
+    margin-left: 0px;
+}
+.card-title {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 1rem;
+}
+.card-text {
+    line-height: 1.5rem;
+}
+.container .link {
+    font-size: 13px;
+    margin-top: 40px;
+    color: black;
+}
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gainsboro;
+    padding: 60px 0px;
+}
+.content1 {
+    display: flex;
+}
+.form {
+    display: flex;
+    float: right;
+    float: top;
+    margin-left: 40px;
+} 
+.detail {
+    display: grid;
+    float: left;
+}
+.detail1 {
+    display: grid;
+}
+form {
+    height: 420px;
+    width: 300px;
+    background-color: white;
+    color: black;
+    padding: 2rem;
+}
+img {
+    width: 70px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5rem;
+}
+.name {
+    border:none;
+    background-color: whitesmoke;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    width: 230px;
+    justify-content: center;
+}
+.email {
+    border: none;
+    background-color: whitesmoke;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    width: 230px;
+    justify-content: center;
+}
+.form-check-input {
+    margin-top: 2rem;
+}
+.form-check-label {
+    font-size: 8px;
+    margin-top: 2rem;
+}
+form .outer_btn {
+    margin-top: 2rem;
+    margin-left: 30px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+}
+.footer {
+    /* margin-top: 3rem; */
+    padding: 60px 0px;
+}
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 330px));
+}
+.logo img {
+    width: 70px;
+    margin: 0px auto;
+}
+.para {
+    display: grid;
+    margin-top: 1rem;
+}
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(auto, 200px));
+    margin-left: 18rem;
+    margin-top: 1rem;
+}
+.footer-col {
+    display: grid;
+}
+.footer-col h4 {
+    margin-left: 2rem;
+}
+.footer-link {
+    list-style: none;
+    text-decoration: none;
+    margin-right: 2rem;
+    display: grid;
+}
+.footer-link a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    display: grid;
+}
+.copyright {
+    display: flex;
+    margin-top: 2rem;
+}
+.service {
+   color: black; 
+   margin-left: 9rem;
+}
+.privacy {
+    color: black;
+    margin-left: 50px;
+}
